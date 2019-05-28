@@ -62,6 +62,7 @@ export function createVNode(type, props, key, ref) {
 		_dom: null,
 		_lastDomChild: null,
 		_component: null,
+		_depth: 0,
 		constructor: undefined
 	};
 
